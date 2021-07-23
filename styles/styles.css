@@ -1,0 +1,389 @@
+    :root {
+    --PColor: #bca6d7;
+    --SColor: #5b53b9;
+    --BGColor: #ffffff;
+    --BLColor: #0675d1;
+    --SBColor: #03061d;
+    --FColor: #1b1b1b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 90%;
+    margin: auto;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+a {
+    color: var(--BGColor);
+    text-decoration: none;
+    font-size: 19px;
+    font-family: PFont-Light;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.sections {
+    height: 100%;
+    width: 100%;
+}
+
+.first {
+    border-top: 10px solid var(--SColor);
+}
+
+.content-landing {
+    background: url(../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}
+
+.container-landing {
+    padding: 50px
+}
+
+.logo>img {
+    object-fit: contain;
+    width: 300px;
+}
+
+.logo {
+    margin: 40px 0px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    background-color: var(--PColor);
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: PFont-Bold;
+    font-size: 50px;
+    color: var(--BGColor);
+    width: 50%;
+}
+
+.btn-primary {
+    font-family: PFont-Bold;
+    font-size: 25px;
+    color: var(--BGColor);
+    background-color: var(--BLColor);
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin: 60px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .1s ease;
+}
+
+.title-card {
+    font-family: PFont-Bold;
+    color: var(--SBColor);
+    text-align: start;
+    font-size: 17px;
+    margin: 15px 0px;
+}
+
+.subtitle {
+    font-family: PFont-Bold;
+    color: var(--SBColor);
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.contentCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--PColor);
+    gap: 10px;
+    margin: 50px;
+}
+
+.card {
+    border-radius: 15px;
+    width: auto;
+    padding: 20px;
+    background-color: var(--BGColor);
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-Info {
+    width: 50%;
+    padding: 13px;
+    background-color: var(--BGColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column
+}
+
+.SocialInfo {
+    width: 47%;
+    padding: 13px;
+    display: flex;
+    flex-direction: column
+}
+
+p {
+    font-family: PFont-Regular;
+}
+
+.fa {
+    color: var(--BGColor);
+}
+
+.slogan {
+    background-color: var(--PColor);
+    padding: 30px;
+}
+
+.content-logo {
+    width: 100px;
+}
+
+.Contact-title {
+    color: var(--BGColor);
+    font-size: 25px;
+    font-family: PFont-Regular;
+    margin-left: 10px;
+}
+
+.title-about {
+    color: var(--BGColor);
+    font-size: 25px;
+    font-family: PFont-Regular;
+    margin-bottom: 10px;
+}
+
+.slogan>h2 {
+    font-size: 20px;
+    font-family: PFont-Regular;
+    color: var(--BGColor);
+    text-align: center;
+}
+
+.about-text {
+    color: var(--BGColor);
+    font-size: 19px;
+    font-family: PFont-Light;
+    font-weight: 100;
+    margin: 1px;
+}
+
+.description {
+    color: #565656;
+    font-size: 30px;
+    width: 80%;
+    margin: 10px 0px;
+}
+
+.description-card {
+    color: #565656;
+    font-size: 20px;
+    width: 80%;
+}
+
+.text-Copyright {
+    color: var(--BGColor);
+    font-size: 16px;
+    font-family: PFont-Light;
+    font-weight: 100;
+    margin: 1px;
+}
+
+.text-bold {
+    color: #565656;
+    font-size: 25px;
+    font-family: PFont-Bold;
+    font-weight: 700;
+    margin: 1px;
+}
+
+.Copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.title {
+    font-family: PFont-Bold;
+    font-size: 30px;
+    color: var(--SColor);
+}
+
+.copyright-icon {
+    border-radius: 100%;
+    background-color: var(--BGColor);
+    color: #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+.icon {
+    color: #000;
+}
+
+.paragraph {
+    color: #565656;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.descriptionPage {
+    color: var(--BGColor);
+    font-size: 30px;
+    width: 40%;
+    margin: 60px 0px;
+}
+
+footer {
+    background-color: var(--FColor);
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.contentCopy {
+    border-top: 3px solid var(--BGColor);
+    width: 100%;
+}
+
+.content-social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subcription {
+    display: flex;
+}
+
+.send-subcription {
+    font-family: PFont-Light;
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--BGColor);
+    margin-right: 30px;
+}
+
+.send-subcription>span {
+    font-family: PFont-Light;
+    font-size: 15px;
+    font-weight: 100;
+    color: red;
+}
+
+.content-icon-card {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-icon-card>img {
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .contentCard {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+    .card-Info {
+        width: 100%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .descriptionPage {
+        font-size: 25px;
+        width: auto;
+    }
+    .subtitle{
+        width: 80%;
+        
+    }
+    .description {
+        font-size: 25px;
+    }
+    .text-bold {
+        font-size: 25px;
+    }
+    .btn-primary {
+        font-size: 19px;
+        margin: 0px;
+    }
+    .SocialInfo {
+        width: auto;
+    }
+    .Copyright {
+        flex-direction: column;
+    }
+    .text-Copyright {
+        margin-bottom: 10px;
+    }
+    @font-face {
+        font-family: PFont-Bold;
+        src: url('../assets/fonts/Pastoral-Bold.otf')
+    }
+    @font-face {
+        font-family: PFont-Regular;
+        src: url('../assets/fonts/Pastoral-Regular.otf')
+    }
+    @font-face {
+        font-family: PFont-Medium;
+        src: url('../assets/fonts/Pastoral-Medium.otf')
+    }
+    @font-face {
+        font-family: PFont-Light;
+        src: url('../assets/fonts/Pastoral-Light.otf')
+    }
